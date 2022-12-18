@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwUQhjxds9v0xu24onrW7xS625qIRgThXzfg&usqp=CAU);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            box-sizing: border-box;
+            padding: 50px;
+            margin: 3px;
+            border: 5px;
+
+        }
+        .container{
+            
+            width: 35%;
+            height: 350px;
+            box-sizing: content-box;
+            padding: 3px;
+            margin: auto;
+            top: 15%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        .header{
+            padding: 5px auto;
+            margin: 3px;
+            border: rgb(131, 117, 41);
+            width: 99%;
+            height: 100px;
+            background-color: rgb(70, 197, 176);
+            color: rgb(36, 35, 35);
+            text-align: center;
+            font-size: x-large;
+
+        }
+        .main{
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .footer button{
+            width: 40%;
+            color:rgb(36, 35, 35);
+            box-sizing: border-box;
+            padding: 10px;
+            margin: 1px;
+            left: 2px;
+            line-height: 4px;
+            font-weight: bold;
+            background-color: rgb(70, 197, 176);
+        }
+        p{
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form action="" class="container">
+        <div class="header">
+            <p>**Welcome to my world.**</p>
+        </div>
+        <div class="main">
+        <!--<p>Username*:</p>
+            <input type="text" id="Username" placeholder="Your Username" required>
+            
+            <p>Password*:</p>
+            <input type="password" id="password" placeholder="Your Password" required>
+        -->
+        <p>Do you want to know about me!</p>
+        <br>
+        <p>if yes, then please click on following "Click Here" button.</p>
+        </div>
+        <br>
+        <div class="footer">
+            <button type="button" value="Login Here">Click Here</button> 
+        </div>
+    </form>
+    <script>
+        const newPage = document.querySelector('button');
+        newPage.addEventListener('click',ShowMsg);
+
+        function ShowMsg(){
+            window.open('///home/firewinds007/firstPage.html');
+        }
+    </script>
+</body>
+</html>

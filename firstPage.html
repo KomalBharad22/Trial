@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="/home/firewinds007/home/firewinds007/index.css">
+</head>
+<body>
+    <header class="header">
+        <h1>*-*Komal Bharad*-*</h1>
+        <nav class="menu">
+            <a href="#">Information</a>
+            <a href="#" id="sci">Favourite Scientist</a>
+            <a href="#" id="ceo">Favourite CEO's</a>
+            <a href="#" id="ideal">Ideal's</a>
+            <a href="#" id="per">Favourite person's</a>
+        </nav>
+    </header>
+    <main>
+        <div class="Info">
+            <h1>*Information*</h1>
+            <p> My name is Komal Ramrao Bharad. I am studing in 3rd year of Btech in Electronics and Telecommunication Engineering. it is a simple collection of HTML pages which includes following points:
+            </p>
+            <p> <b>1. Favourite Scientist: </b> In this I includes my Favourite Scientist who inspired me very much like 'Abdul Kalam' , 'Kalpana Chawla' and 'Dr. Homi Bhabha'</p>
+            <br>
+            <p> <b>2. Favourite CEO's: </b> In this page I includes my Favourite CEO's like 'Sundar Pichai' , 'Satya Nadella' and 'Leena Nair'</p>
+            <br>
+            <p> <b>3. Ideal's: </b> In this I includes my ideal's who teach me how to become a good human being like 'Mother Teresa' , 'Muniba Mazari' and 'Manushi Chhillar'</p>
+            <br>
+            <p> <b>4. Favourite person's: </b> In this I mention my Favourite person's from who I learned how to stick to your dream and never give up on your dream that includes 'Miss India' , 'Shivangi Joshi'</p>
+        </div>
+        
+    </main>
+    <script>
+        const person = document.getElementById('per');
+        person.addEventListener('click',ShowMsg1);
+        function ShowMsg1(){
+            window.open('/home/firewinds007/Person.html');
+        }
+
+
+        const sci = document.getElementById('sci');
+        sci.addEventListener('click',ShowMsg2);
+        function ShowMsg2(){
+            window.open('/home/firewinds007/Scientist.html');
+        }
+
+
+        const ceo = document.getElementById('ceo');
+        ceo.addEventListener('click',ShowMsg3);
+        function ShowMsg3(){
+            window.open('/home/firewinds007/CEO.html');
+        }
+
+
+        const ideal = document.getElementById('ideal');
+        ideal.addEventListener('click',ShowMsg4);
+        function ShowMsg4(){
+            window.open('/home/firewinds007/Ideal.html');
+        }
+        
+    </script>
+</body>
+</html>
